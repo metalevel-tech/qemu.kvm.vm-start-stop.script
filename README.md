@@ -1,4 +1,4 @@
-# Win10 Launcher
+# Win10 Launcher Script
 
 A script that start (stop) a virtual machine via `virsh` and launch `virt-viewer` and few related files. All of them are designed to fit to my particular case. Here are:
 
