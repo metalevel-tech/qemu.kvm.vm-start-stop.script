@@ -21,8 +21,15 @@ then
 
     # Create .dsktop files
     cp "./desktop-files/launch.win10"*".desktop" "${HOME}/Desktop/"
+    for launch in "${HOME}/Desktop/launch.win10"*".desktop"; do
+        echo "${launch}"
+        dbus-launch gio set "${launch}" "metadata::trusted" true
+       # desktop-file-install --mode=0755 --dir=$HOME/Desktop "${launch}"
+    done
+
     cp "./desktop-files/launch.win10"*".desktop" "${HOME}/.local/share/applications/"
     update-desktop-database "${HOME}/.local/share/applications/"
+
 
     # Copy the icons
     mkdir -p "${HOME}/.local/share/icons"
