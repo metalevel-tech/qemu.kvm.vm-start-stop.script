@@ -32,3 +32,5 @@ win10.virt.launcher.sh start|start-pt|stop|deploy|backup
 * The command `update-icon-caches ~/.local/share/icons/*` may not take effect immediately, you may need to execute is for yourself.
 
 * You may need to allow launching the .desktop files manually from the context menu of the new icons at the desktop.
+
+* Related reference: [Why do freedesktop .desktop files not allow relative paths?](https://unix.stackexchange.com/questions/428992/why-do-freedesktop-desktop-files-not-allow-relative-paths)
