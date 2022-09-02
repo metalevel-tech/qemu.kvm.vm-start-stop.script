@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Win10 QXL
+Exec=bash -c '$HOME/.local/bin/win10.virt.launcher.sh start'
+StartupNotify=false
+Terminal=false
+Icon=Win10default

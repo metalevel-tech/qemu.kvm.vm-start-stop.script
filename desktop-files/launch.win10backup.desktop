@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Win10 Bkp
+Exec=bash -c '$HOME/.local/bin/win10.virt.launcher.sh backup'
+StartupNotify=false
+Terminal=true
+Icon=Win10backup

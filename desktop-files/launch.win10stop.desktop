@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Win10 Stop
+Exec=bash -c '$HOME/.local/bin/win10.virt.launcher.sh stop'
+StartupNotify=false
+Terminal=false
+Icon=Win10stop
