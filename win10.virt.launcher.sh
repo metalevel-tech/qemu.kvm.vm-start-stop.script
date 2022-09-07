@@ -90,7 +90,7 @@ else
             exit
         else
             virsh --connect qemu:///system start "Win10PT" 2>/dev/null
-            sleep 60 && remmina -c "${HOME}/.local/share/remmina/group_rdp_win10pt_172-16-1-111.remmina" &
+            sleep 30 && remmina -c "${HOME}/.local/share/remmina/group_rdp_win10pt_172-16-1-111.remmina" &
             exit
         fi
     fi
