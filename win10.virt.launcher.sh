@@ -7,8 +7,8 @@ then
     DUMP_DIR="${DUMP_DIR%/*}/vm-dumpxml"
     echo "Dump directory: ${DUMP_DIR}"
 
-    virsh --connect qemu:///system dumpxml "Win10" >"${DUMP_DIR}/$(hostname)_Win10_$(date +%y%m%d).xml" 2>/dev/null
-    virsh --connect qemu:///system dumpxml "Win10PT" >"${DUMP_DIR}/$(hostname)_Win10PT_$(date +%y%m%d).xml" 2>/dev/null
+    virsh --connect qemu:///system dumpxml "Win10" >"${DUMP_DIR}/$(hostname)_$(date +%y%m%d)_Win10.xml" 2>/dev/null
+    virsh --connect qemu:///system dumpxml "Win10PT" >"${DUMP_DIR}/$(hostname)_$(date +%y%m%d)_Win10PT.xml" 2>/dev/null
     exit
 fi
 
