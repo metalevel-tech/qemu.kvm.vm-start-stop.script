@@ -6,6 +6,7 @@ A script that start (stop) a virtual machine via `virsh` and launch `virt-viewer
 * Vide: [Configuration of the manipulated virtual machines](https://vimeo.com/745733269)
 
 ## Functions of the script
+
 Currently it manages two virtual machines that uses the same SATA controller and physical SSD.
 
 ```bash
